@@ -1,0 +1,34 @@
+@media screen and (min-width: 1140px) {
+    .movieCard {
+        background: var(--card-color);
+        padding:10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1139px) {
+    .movieCard {
+        background: var(--card-color);
+        padding: 20px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+}
+
+.movieCard:hover {
+    cursor: pointer;
+    background: var(--card-color-dark);
+    transition: background-color 175ms linear;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 12px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,21 @@
+.button {
+    background-color: var(--button-color);
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.disabled {
+    background-color: #f0a779;
+    color: #a2644a;
+} 
+
+.active:hover {
+    cursor: pointer;
+    background-color: var(--button-color-dark);
+    transition: background-color 175ms linear;
+}
+
